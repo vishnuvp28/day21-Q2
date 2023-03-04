@@ -1,0 +1,84 @@
+.btn{
+    display:flex;
+    align-items: center;
+    justify-content: center;
+    margin-left: 600px;
+    
+}
+
+#inp{
+   width: 800px;
+   
+   margin-left: 230px;
+}
+.head{
+   
+    height: 300px;
+    background-size:cover;
+    background-repeat: no-repeat;
+
+}
+.main{
+    display:grid;
+    grid-template-columns: auto auto;
+  
+}
+.left{
+    margin:5px;
+    padding:15px;
+}
+.right{
+    margin:5px;
+    padding:5px;
+
+}
+.topic{
+    display:flex;
+    align-items: center;
+    justify-content: center; 
+    margin:20px;
+   color:white;
+
+
+}
+h1{
+
+
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    
+}
+.input{
+    padding:2px;
+
+}
+img{
+    width:100%;
+    height:100%;
+}
+*{
+    margin:0;
+    padding:0;
+
+}
+body{
+    width: 100%;
+    background: linear-gradient(to top,rgba(0,0,0, 0.5)50%,rgba(0,0,0,0.5)50%),url(https://media.istockphoto.com/id/1296140220/photo/corona-virus-mutation.jpg?b=1&s=170667a&w=0&k=20&c=NtizDvExs-kEa7nj_jWTZ0Sa1kLyN9tfpAoAKOTNiIM=);
+    background-position: center;
+    background-size: cover;
+    height:109vh;
+    color:white;
+    
+}
+
+textarea{
+    color:black;
+
+}
+label{
+    color:black;
+
+}
+h5{
+    color: white;
+    margin-left: 240px;
+}
